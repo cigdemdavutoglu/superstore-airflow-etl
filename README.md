@@ -19,7 +19,7 @@ Ham veriler Jupyter Notebook kullanılarak temizlenmiş, boyut (dimension) ve fa
 | `superstore_cleaning.ipynb`      | Verinin temizlendiği Jupyter Notebook |
 | `load_all_tables.py`             | Temizlenen CSV dosyalarını PostgreSQL’e yükler |
 | `superstore_etl_to_postgres.py`  | Airflow DAG dosyası (ETL sürecini otomatize eder) |
-| `superstore_report.pbix`         | Power BI raporu (PostgreSQL'e bağlı) |
+| `superstore_report.pbix`         | Power BI raporu  |
 | `requirements.txt`               | Gerekli Python paketleri |
 | `.gitignore`                     | Takip edilmeyecek dosya/klasör listesi |
 | `LICENSE`                        | Proje lisansı |
