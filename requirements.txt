@@ -1,0 +1,7 @@
+pandas
+sqlalchemy
+psycopg2-binary
+jupyter
+
+# Eğer Airflow da pip ile kurulacaksa:
+apache-airflow==2.6.3
