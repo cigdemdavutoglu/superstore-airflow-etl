@@ -1,6 +1,7 @@
 # Superstore ETL Projesi
 
-Bu proje, Kaggle üzerinde bulunan Superstore veri seti kullanılarak gerçekleştirilen bir ETL sürecini kapsamaktadır. Ham veriler temizlenmiş, boyut (dimension) ve fakt (fact) tablolarına ayrılmış, PostgreSQL veritabanına yüklenmiş ve son olarak Power BI ile görselleştirilmiştir.
+Bu proje, Kaggle üzerinde bulunan Superstore veri seti kullanılarak gerçekleştirilen bir ETL sürecini kapsamaktadır. 
+Ham veriler Jupyter Notebook kullanılarak temizlenmiş, boyut (dimension) ve fakt (fact) tablolarına ayrılmıştır. Temizlenen veriler PostgreSQL veritabanına aktarılmış, bu sürecin otomasyonu için Apache Airflow kullanılarak günlük çalışan bir DAG tasarlanmıştır. Son aşamada veriler Power BI ile görselleştirilmiş ve raporlanmıştır.
 
 ## 🔧 Kullanılan Teknolojiler
 
