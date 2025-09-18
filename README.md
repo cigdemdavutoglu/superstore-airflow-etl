@@ -31,7 +31,7 @@ Ham veriler Jupyter Notebook kullanılarak temizlenmiş, boyut (dimension) ve fa
 1. `superstore_cleaning.ipynb` ile veri temizlenir ve boyut/fakt tabloları oluşturulur.
 2. `load_all_tables.py` ile bu tablolar PostgreSQL veritabanına yüklenir.
 3. `superstore_etl_to_postgres.py` dosyası, Airflow kullanılarak bu süreci otomatize eder.
-4. `superstore_report.pbix` dosyası PostgreSQL'e bağlı şekilde raporlamayı içerir.
+4. `superstore_report.pbix` dosyası raporlamayı içerir.
 
 ## ⚙️ Airflow Kullanımı
 
