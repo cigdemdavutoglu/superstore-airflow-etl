@@ -19,9 +19,11 @@ Bu proje, Kaggle üzerinde bulunan Superstore veri seti kullanılarak gerçekle�
 | `load_all_tables.py`             | Temizlenen CSV dosyalarını PostgreSQL’e yükler |
 | `superstore_etl_to_postgres.py`  | Airflow DAG dosyası (ETL sürecini otomatize eder) |
 | `superstore_report.pbix`         | Power BI raporu (PostgreSQL'e bağlı) |
+| `requirements.txt`               | Gerekli Python paketleri |
 | `.gitignore`                     | Takip edilmeyecek dosya/klasör listesi |
 | `LICENSE`                        | Proje lisansı |
 | `README.md`                      | Proje açıklaması (bu dosya) |
+
 
 ## 🔄 Süreç Açıklaması
 
