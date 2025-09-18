@@ -50,7 +50,7 @@ def load_unique_to_postgres(table_name, csv_path, unique_key):
     else:
         print(f"[INFO] {table_name} tablosunda eklenecek yeni kayıt yok.")
 
-# Her tablo için benzersiz kayıt ekleme fonksiyonları (unique key örnekleri)
+# Her tablo için benzersiz kayıt ekleme fonksiyonları 
 def load_dim_customer():
     load_unique_to_postgres('dim_customer', '/home/train/datasets/dim_customer.csv', 'customer_id')
 
